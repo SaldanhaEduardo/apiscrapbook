@@ -1,5 +1,5 @@
 {
-  "name": "correcaoapiscrapbook",
+  "name": "apiscrapbook",
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
@@ -8,10 +8,12 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "uuidv4": "^6.2.2"
   },
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "node src/index.js"
   }
 }
